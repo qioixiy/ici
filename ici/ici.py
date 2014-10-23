@@ -5,6 +5,10 @@ import urllib2
 import getopt
 from xml.dom import minidom
 
+import sys
+reload(sys)
+sys.setdefaultencoding( "utf-8" )
+
 from termcolor import colored
 
 
